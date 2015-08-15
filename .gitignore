@@ -7,6 +7,6 @@ prepros.cfg
 *.map
 css/*
 .sass-cache
-_designs
+# _designs
 img/_backup
 build
