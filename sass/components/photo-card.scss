@@ -1,0 +1,52 @@
+.photo-card {
+  position: relative;
+  height: 437px;
+  margin-bottom: 20px;
+  padding-top: 220px;
+  padding-right: 64px;
+  padding-left: 64px;
+  color: #fff;
+  text-align: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  &:after {
+    content: '';
+    width: 48px;
+    height: 48px;
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    margin-left: -24px;
+    background: url('../img/ic-continue.svg') no-repeat;
+    background-size: contain;
+
+  }
+
+  &--business {
+    background-image: url('../img/bg-small-subpage-businesses.png');
+  }
+
+  &--story {
+    background-image: url('../img/bg-small-subpage-our-story.png');
+  }
+
+  &--teachers {
+    background-image: url('../img/bg-small-subpage-teachers.png');
+  }
+
+  &__title {
+    margin-bottom: 12px;
+    @include font-size(28);
+    font-weight: bold;
+  }
+
+  &__text {
+    @include secondary-font;
+    @include font-size(18);
+  }
+
+  &__outer {
+    margin-bottom: 44px;
+  }
+}

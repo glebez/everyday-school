@@ -1,0 +1,19 @@
+.main-footer {
+  padding-top: 65px;
+  padding-bottom: 61px;
+  background-color: $footer-bg;
+  text-align: center;
+  @include secondary-font;
+
+  &__text {
+    @include font-size(12);
+    line-height: 2;
+    text-transform: uppercase;
+    color: #86827d;
+    font-weight: bold;
+  }
+
+  .logo {
+    margin: 0 auto 28px;
+  }
+}

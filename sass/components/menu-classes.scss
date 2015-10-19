@@ -1,0 +1,16 @@
+.menu-classes {
+  padding-top: 22px;
+  padding-bottom: 27px;
+  @include secondary-font;
+
+  &__label {
+    display: block;
+    font-weight: bold;
+    color: $apricot;
+    @include font-size(14)
+  }
+
+  .cust-checkbox {
+    margin-right: 25px;
+  }
+}

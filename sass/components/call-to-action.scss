@@ -1,0 +1,46 @@
+.call-to-action {
+  min-height: 500px;
+  padding-top: 200px;
+  text-align: center;
+  color: #fff;
+  background-image: url('../img/bg-cta-2.png');
+
+  &--multiline {
+    padding-top: 147px;
+    background-image: url('../img/bg-cta-3.png');
+
+    .call-to-action__title {
+      margin-bottom: 20px;
+    }
+  }
+
+  &__inner {
+    max-width: 670px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  &__title {
+    margin-bottom: 12px;
+    @include font-size(44);
+  }
+
+  &__link {
+    @include secondary-font;
+    @include font-size(20);
+    color: $greenish-teal;
+    text-decoration: underline;
+
+    &:hover,
+    &:focus {
+      color: $greenish-teal;
+      text-decoration: none;
+    }
+  }
+
+  &__text {
+    margin-bottom: 38px;
+    padding-right: 65px;
+    padding-left: 65px;
+  }
+}

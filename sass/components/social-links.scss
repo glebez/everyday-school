@@ -1,0 +1,28 @@
+.social-links {
+  font-size: 0;
+  margin-bottom: 15px;
+
+  &__item {
+    display: inline-block;
+    margin-right: 35px;
+  }
+
+  &__link {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background-repeat: no-repeat;
+    background-size: auto 11px;
+    background-position: center center;
+
+    &--fb {
+      background-image: url('../img/ic-facebook.svg');
+    }
+    &--twi {
+      background-image: url('../img/ic-twitter.svg');
+    }
+    &--mail {
+      background-image: url('../img/ic-mail.svg');
+    }
+  }
+}

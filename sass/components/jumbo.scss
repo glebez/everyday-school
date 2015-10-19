@@ -1,0 +1,24 @@
+.jumbo {
+  padding-top: 46px;
+  padding-bottom: 135px;
+  background-image: url(../img/bg-header.png);
+  background-position: 50% 0;
+  color: #fff;
+
+  &__content {
+    padding-top: 170px;
+    padding-left: 100px;
+  }
+
+  &__title {
+    margin-bottom: 16px;
+    @include font-size(86);
+  }
+
+  &__text {
+    max-width: 570px;
+    margin-bottom: 48px;
+    @include secondary-font;
+    @include font-size(20);
+  }
+}

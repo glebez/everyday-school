@@ -1,0 +1,25 @@
+.cust-checkbox {
+  cursor: pointer;
+
+  &:before {
+    content: '';
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #52493f;
+    border-radius: 2px;
+    margin-right: 5px;
+    vertical-align: sub;
+  }
+
+  input:checked + & {
+    &:before {
+      background-color: $apricot;
+      border-color: $apricot;
+      background-image: url('../img/checkbox-on.svg');
+      background-repeat: no-repeat;
+      background-position: center center;
+    }
+  }
+
+}

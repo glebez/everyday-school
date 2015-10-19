@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="16px" height="15px" viewBox="0 0 16 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: bin/sketchtool 1.4 (305) - http://www.bohemiancoding.com/sketch -->
+    <title>ic_send</title>
+    <desc>Created with bin/sketchtool.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Everyday-School" sketch:type="MSArtboardGroup" transform="translate(-1180.000000, -2019.000000)">
+            <g id="ic_send" sketch:type="MSLayerGroup" transform="translate(1179.000000, 2017.000000)">
+                <path d="M0,0 L18,0 L18,18 L0,18 L0,0 Z" id="Bounds" opacity="0.5" sketch:type="MSShapeGroup"></path>
+                <path d="M1.00648286,15.7404511 C1.0070611,16.1583516 1.30914578,16.3636052 1.68665792,16.1964851 L16.8126921,9.50036991 L1.68665792,2.80425471 C1.31158584,2.63821476 1.00705883,2.8440294 1.00648286,3.26028876 L1,7.94553499 L12.29478,9.50036991 L1,11.0552048 L1.00648286,15.7404511 Z" id="Shape" fill="#FFFFFF" sketch:type="MSShapeGroup"></path>
+            </g>
+        </g>
+    </g>
+</svg>

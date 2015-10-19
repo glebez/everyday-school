@@ -1,0 +1,22 @@
+.main-nav{
+  float: right;
+  font-size: 0;
+
+  &__item {
+    display: inline-block;
+    & + .main-nav__item {
+      margin-left: 50px;
+    }
+  }
+  &__link {
+    color: #fff;
+    @include font-size(16);
+    font-weight: bold;
+    line-height: 46px;
+    vertical-align: middle;
+
+    &:hover {
+      color: #fff;
+    }
+  }
+}

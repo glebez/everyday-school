@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="35px" height="34px" viewBox="0 0 35 34" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: bin/sketchtool 1.4 (305) - http://www.bohemiancoding.com/sketch -->
+    <title>ic_play_circle</title>
+    <desc>Created with bin/sketchtool.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Everyday-School" sketch:type="MSArtboardGroup" transform="translate(-782.000000, -2952.000000)">
+            <g id="ic_play_circle" sketch:type="MSLayerGroup" transform="translate(779.000000, 2949.000000)">
+                <path d="M0,0 L40.4938272,0 L40.4938272,40 L0,40 L0,0 Z" id="Bounds" opacity="0.5" sketch:type="MSShapeGroup"></path>
+                <path d="M20.2469136,3 C10.7470617,3 3.03703704,10.616 3.03703704,20 C3.03703704,29.384 10.7470617,37 20.2469136,37 C29.7467654,37 37.4567901,29.384 37.4567901,20 C37.4567901,10.616 29.7467654,3 20.2469136,3 L20.2469136,3 Z" id="Shape" fill="#FF9669" sketch:type="MSShapeGroup"></path>
+                <path d="M17.7160494,26 L17.7160494,14.5 L25.8148148,20.25 L17.7160494,26 L17.7160494,26 Z" id="Path" fill="#FFFFFF" sketch:type="MSShapeGroup"></path>
+            </g>
+        </g>
+    </g>
+</svg>

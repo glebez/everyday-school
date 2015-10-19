@@ -1,0 +1,71 @@
+.cal-card {
+  margin-bottom: 30px;
+  padding-bottom: 16px;
+  background-color: #fff;
+  box-shadow: 0 1px 2px 0 rgba(0,0,0,.1);
+  border-radius: 2px;
+  @include secondary-font;
+  @include clearfix;
+  &__img {
+    height: 80px;
+    margin-bottom: 26px;
+    background-color: $greeny-blue;
+  }
+
+  &__date {
+    text-align: center;
+    width: 20%;
+    float: left;
+  }
+
+  &__content {
+    width: 80%;
+    float: left;
+    padding-right: 21px;
+  }
+
+  &__month {
+    text-transform: uppercase;
+    color: $apricot;
+    @include font-size(14);
+  }
+
+  &__day {
+    @include font-size(28);
+  }
+
+  &__muted-text {
+    text-transform: uppercase;
+    font-weight: bold;
+    @include font-size(10);
+    line-height: 2.2;
+    color: $muted-text;
+  }
+
+  &__title {
+    height: 2em;
+    margin-bottom: 23px;
+  }
+  &__price {
+    font-weight: bold;
+    @include font-size(10);
+    line-height: 2.2;
+    color: $greeny-blue;
+    text-transform: uppercase;
+    text-align: right;
+  }
+
+  &__footer {
+    @include clearfix;
+    .cal-card__muted-text {
+      width: 65%;
+      float: left;
+    }
+
+    .cal-card__price {
+      width: 35%;
+      float: left;
+    }
+
+  }
+}

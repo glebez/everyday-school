@@ -1,0 +1,14 @@
+body {
+  @include main-font;
+  @include font-size(16);
+  color: $camo-green;
+}
+
+html {
+  font-size: 10px;
+}
+
+a:hover,
+a:focus {
+  text-decoration: none;
+}

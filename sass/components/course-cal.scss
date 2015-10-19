@@ -1,0 +1,11 @@
+.course-cal {
+  padding-top: 59px;
+  padding-bottom: 83px;
+  @include secondary-font;
+  background-color: $gray;
+
+  &__title {
+  @include font-size(28);
+  text-align: center;
+  }
+}

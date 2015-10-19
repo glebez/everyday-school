@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="50px" height="50px" viewBox="0 0 50 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: bin/sketchtool 1.4 (305) - http://www.bohemiancoding.com/sketch -->
+    <title>ic_continue</title>
+    <desc>Created with bin/sketchtool.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Everyday-School" sketch:type="MSArtboardGroup" transform="translate(-1175.000000, -5066.000000)">
+            <g id="Group" sketch:type="MSLayerGroup" transform="translate(0.000000, 4653.000000)">
+                <g id="ic_continue" transform="translate(1176.000000, 414.000000)" sketch:type="MSShapeGroup">
+                    <circle id="Oval-14" stroke="#FFFFFF" stroke-width="2" cx="24" cy="24" r="24"></circle>
+                    <g id="ic_navigate_next" transform="translate(9.000000, 8.000000)">
+                        <path d="M0,0 L32,0 L32,32 L0,32 L0,0 Z" id="Bounds" opacity="0.5"></path>
+                        <path d="M14.04328,8.70994663 C13.6511873,8.31785393 13.0228896,8.31044376 12.6332907,8.70004261 L12.1533759,9.17995739 C11.7667531,9.56658025 11.7645593,10.1919055 12.1538456,10.5820418 L17.56,16 L12.1538456,21.4179582 C11.7669634,21.8056852 11.7637771,22.4304438 12.1533759,22.8200426 L12.6332907,23.2999574 C13.0199136,23.6865802 13.6568511,23.6764822 14.04328,23.2900534 L21.3333333,16 L14.04328,8.70994663 Z" id="Shape" fill="#FFFFFF"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

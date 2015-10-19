@@ -1,0 +1,28 @@
+.person {
+  @include secondary-font;
+
+  &__img {
+    width: 64px;
+    height: 64px;
+    margin-right: auto;
+    margin-bottom: 14px;
+    margin-left: auto;
+    border-radius: 50%;
+    background-color: $greeny-blue;
+  }
+
+  &__name {
+    @include font-size(18);
+    font-weight: bold;
+  }
+
+  &__detail {
+    margin-bottom: 8px;
+    @include font-size(10);
+    line-height: 2.2;
+    font-weight: bold;
+    color: $muted-text;
+    text-transform: uppercase;
+  }
+
+}

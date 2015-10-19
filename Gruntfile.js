@@ -3,10 +3,7 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-copy');
   grunt.loadNpmTasks('grunt-contrib-clean');
   grunt.loadNpmTasks('grunt-contrib-watch');
-  grunt.loadNpmTasks('grunt-contrib-less');
   grunt.loadNpmTasks('grunt-sass');
-  grunt.loadNpmTasks('grunt-githooks');
-  grunt.loadNpmTasks('grunt-lintspaces');
   grunt.loadNpmTasks('grunt-autoprefixer');
   grunt.loadNpmTasks('grunt-combine-media-queries');
   grunt.loadNpmTasks('grunt-contrib-imagemin');
@@ -31,26 +28,6 @@ module.exports = function(grunt) {
       }
     },
 
-    lintspaces: {
-      test: {
-        src: [
-          '*.html',
-          'js/*.js',
-          'less/*.less',
-          'sass/*.sass'
-        ],
-        options: {
-          editorconfig: '.editorconfig'
-        }
-      }
-    },
-
-    githooks: {
-      test: {
-        'pre-commit': 'lintspaces:test',
-      }
-    },
-
     copy: {
 
       build: {
@@ -72,13 +49,13 @@ module.exports = function(grunt) {
       build: ['build']
     },
 
-    autoprefixer: { 
-      options: { 
-        browsers: ["last 2 version", "ie 10"] 
-      }, 
+    autoprefixer: {
+      options: {
+        browsers: ["last 2 version", "ie 10"]
+      },
 
-      build: { 
-        src: "build/css/style.css" 
+      build: {
+        src: "build/css/style.css"
       }
     },
 
@@ -93,43 +70,43 @@ module.exports = function(grunt) {
       }
     },
 
-    imagemin: { 
-      images: { 
-        options: { 
-          optimizationLevel: 3 
-        }, 
-        files: [{ 
-          expand: true, 
-          src: ["build/img/**/*.{png,jpg,gif,svg}"] 
-        }] 
-      } 
+    imagemin: {
+      images: {
+        options: {
+          optimizationLevel: 3
+        },
+        files: [{
+          expand: true,
+          src: ["build/img/**/*.{png,jpg,gif,svg}"]
+        }]
+      }
     },
 
-    cssmin: { 
-      build: { 
-        options: { 
-          keepSpecialComments: 0, 
-          report: "gzip" 
-        }, 
+    cssmin: {
+      build: {
+        options: {
+          keepSpecialComments: 0,
+          report: "gzip"
+        },
 
-        files: { 
-          "build/css/style.min.css": ["build/css/style.css"] 
-        } 
-      } 
+        files: {
+          "build/css/style.min.css": ["build/css/style.css"]
+        }
+      }
     },
 
     replace: {
-      build: { 
-        options: { 
-          patterns: [{ 
-            match: /[\"\']css\/([^\"\']+).css[\"\']/g, 
+      build: {
+        options: {
+          patterns: [{
+            match: /[\"\']css\/([^\"\']+).css[\"\']/g,
             replacement: '"css/$1.min.css"'
-          }] 
+          }]
         },
 
-        files: [{ 
-          expand: true, 
-          src: ["build/*.html" ] 
+        files: [{
+          expand: true,
+          src: ["build/*.html" ]
         }]
       }
     },
